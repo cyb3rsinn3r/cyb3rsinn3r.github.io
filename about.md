@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Just another Security Engineer with a blog.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+More information coming soon!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[cyb3rsinn3r@protonmail.com](mailto:cyb3rsinn3r@protonmail.com)
