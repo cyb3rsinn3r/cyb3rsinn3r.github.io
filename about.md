@@ -14,8 +14,9 @@ In my personal life I'm a husband, dad, and dog owner. I work from home in Color
 
 ### Contact me
 
+Find me on HackTheBox...
+<a href="https://www.hackthebox.eu/home/users/profile/26890"><img src="/images/htbprofile.jpg"></a>
 
-![hacktheboxProfile](/images/htbprofile.jpg)
 
-or send me an email:
+...or send me an email:
 [cyb3rsinn3r@protonmail.com](mailto:cyb3rsinn3r@protonmail.com)
