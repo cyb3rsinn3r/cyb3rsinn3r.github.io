@@ -1,5 +1,5 @@
 ---
 layout: tagpage
 title: "Tag: RPi4"
-tag: rpi4
+tag: RPi4
 ---
