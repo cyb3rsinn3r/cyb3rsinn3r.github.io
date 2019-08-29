@@ -12,6 +12,8 @@ In my professional life I'm a Security Engineer working with Intrusion Detection
 
 In my personal life I'm a husband, dad, and dog owner. I work from home in Colorado and enjoy everything this state has to offer. When I'm not outside geocaching, hiking, or playing PokemonGo I can usually be found doing various capture the flag exercises or playing a variety of PC games.
 
+In my geek life I'm a gamer (PC/PS4/RetroPi/board), maker (3D printing), and all out n3rd.
+
 ### Contact me
 
 <p>Find me on HackTheBox...</p>
