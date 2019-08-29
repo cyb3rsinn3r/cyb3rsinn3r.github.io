@@ -23,7 +23,7 @@ Basically, like almost every project I do, I am doing this for myself to see if 
 
 Here's the game plan:
 1. Setup Kali for the RPi on a microSD card.
-2. Configure Kali to obtain an IP address via DHCP over WiFi.
+2. Configure Kali to obtain an IP address via DHCP.
 3. Create a certificate on my existing VPN server and setup the OpenVPN connection on Kali.
 4. Create a script to connect via VPN on boot. 
 5. Install the box on my target network.
