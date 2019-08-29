@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making a Kali dropbox with an RPi4 (Intro)
-tags: rpi4 kali pentest
+tags: rpi4 kali pentest pivpn
 description: Introduction and plan for a series of how to make a pentesting dropbox with Kali Linux on a Raspberry Pi 4.
 ---
 
