@@ -34,9 +34,3 @@ A couple of legal notices first:
 * If you do this, make sure you have approval to place the device on the target network. NEVER HACK A NETWORK YOU DON'T OWN OR ADMIN.
 * If you do this and you break something on the target network or end up on the wrong side of the law, don't say I didn't warn you. I accept no responsibility for your actions. See the first bullet above.
 
-```console
-
-pi@mediaPi:~ $ ./getTemp.py
-
-Current Temperature: 100.6'F
-```
