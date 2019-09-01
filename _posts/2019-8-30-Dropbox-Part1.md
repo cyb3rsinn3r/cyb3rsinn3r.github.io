@@ -7,7 +7,7 @@ description: Setting up Kali on the Raspberry Pi 4.
 ## A - Getting the Kali image and putting it on your Raspberry Pi
 
 1. Download from: https://www.offensive-security.com/kali-linux-arm-images/
-Image - Download page
+![download page]
 
 2. Extract with 7zip
 Image - Extracting with 7zip
@@ -80,6 +80,38 @@ ssh root@kali
 ```
 
 8. Finally, lets setup OpenVPN so that it runs at boot and connects to our VPN server:
+* Make OpenVPN autostart (run at boot) - remove the # in front of 'AUTOSTART="all"'
+```console
+root@kali:~# nano /etc/default/openvpn
+```
+
+* Copy the .ovpn file from step 5 to the /etc/openvpn directory, and name it 'client.conf.' In this example, the ovpn file I created is called kali.ovpn.
+```console
+root@kali:~# cp kali.ovpn /etc/openvpn/client.conf
+```
+** Note:** Make sure this client.conf is in /etc/openvpn/ and not /etc/openvpn/server/ or /etc/openvpn/client/
+
+* Finally, enable OpenVPN to start on boot:
+```console
+root@kali:~# update-rc.d openvpn enable
+```
+
+* Moment of truth: reboot the device and make sure you see a connection on your VPN server:
+```console
+root@kali:~# shutdown -r now
+```
+
+```console
+pi@mediaPi:~ $ pivpn -c
+
+: NOTE : The output below is NOT real-time!
+:      : It may be off by a few minutes.
+
+::: Client Status List :::
+                                                                Bytes           Bytes
+Name                    Remote IP               Virtual IP      Received        Sent            Connected Since
+Kali            73.---.---.123:55122    10.8.0.3        2.6KiB          2.3KiB          Aug 31 2019 - 21:24:16
+```
 
 ## C - Dropping the box and hacking the target network.
 
