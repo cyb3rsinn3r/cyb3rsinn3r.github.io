@@ -48,9 +48,10 @@
         <footer class="footer">
           {% include svg-icons.html %}
           <p>&copy; 2020. All rights reserved.</p>
-	  <script type="text/javascript">
-		<p>Your IP: <!--#echo var="REMOTE_ADDR" --></p>
-	  </script>
+		<p id="demo"></p>
+	  <script>
+		document.getElementById("demo").innerHTML = "Hello JavaScript!";
+	  </script> 
         </footer>
       </div>
     </div>
