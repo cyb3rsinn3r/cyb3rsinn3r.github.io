@@ -62,7 +62,8 @@ Creating the custom link is as easy as:
 	                }
 	        },
 	        "content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval';frame-src 'self' * "
-	}```
+	}
+	```
 	
 3. Create `show.html` in the same directory:
 	
