@@ -88,6 +88,7 @@ Creating the custom link is as easy as:
 
   
 4. Login to the device's cockpit on port 9090. And there we have it, Example on the left side:
+   
    ![alt text](https://cyb3rsinn3r.github.io/images/Cockpit/3.png "3")
 5. Click on it and you're taken to Google.com. 
 6. Removing this "add-on" just requires you to delete the example directory and refresh the dashboard (F5):
