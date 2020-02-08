@@ -64,9 +64,9 @@ Creating the custom link is as easy as:
 	"content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval';frame-src 'self' * "
 }
 ```
-3. Create `show.html` in the same directory:
+3. Create `show.html` in the same directory (don't forget to add the html tags):
 ```
-   <html>
+   
    <head>
        <title>Go To Google</title>
        <meta charset="utf-8">
@@ -83,7 +83,7 @@ Creating the custom link is as easy as:
    	window.top.location.replace(redirect_link);
    </script>
    </body>
-   </html>
+   
 ```
   
 4. Login to the device's cockpit on port 9090. And there we have it, Example on the left side:
