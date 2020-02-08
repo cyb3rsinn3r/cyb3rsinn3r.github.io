@@ -93,7 +93,9 @@ Creating the custom link is as easy as:
 	
 5. Click on it and you're taken to Google.com. 
 6. Removing this "add-on" just requires you to delete the example directory and refresh the dashboard (F5):
-```sudo rm -rf /usr/share/cockpit/example/```
+```
+sudo rm -rf /usr/share/cockpit/example/
+```
 	
 # Fin!
 
