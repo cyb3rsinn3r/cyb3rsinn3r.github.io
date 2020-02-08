@@ -52,42 +52,44 @@ Creating the custom link is as easy as:
 1. Create a directory located in `/usr/share/cockpit`:
 ```sudo mkdir /usr/share/cockpit/example```
 2. Create `manifest.json` inside our new `Example` directory with these contents:
-```{
-	        "version":0,
-	        "tools":{
-	                "satnogs":{
-	                        "label": "Example",
-	                        "path": "show.html"
-	                }
-	        },
-	        "content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval';frame-src 'self' * "
-	}
+```
+{
+	"version":0,
+	"tools":{
+		"satnogs":{
+			"label": "Example",
+			"path": "show.html"
+		}
+	},
+	"content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval';frame-src 'self' * "
+}
 ```
 	
 3. Create `show.html` in the same directory:
 	
-```<html>
-	<head>
-	    <title>Go To Google</title>
-	    <meta charset="utf-8">
-	    <link href="../base1/cockpit.css" type="text/css" rel="stylesheet">
-	    <script src="../base1/jquery.js"></script>
-	    <script src="../base1/cockpit.js"></script>
-	</head>
-	<body>
-	        <div class="container-fluid" style='max-width: 850px'>
-	                <h4> Redirecting to Google </h4>
-	        </div>
-	<script>
-	        var redirect_link = "https://www.google.com";
-	        window.top.location.replace(redirect_link);
-	</script>
-	</body>
-	</html>
+```
+<html>
+<head>
+    <title>Go To Google</title>
+    <meta charset="utf-8">
+    <link href="../base1/cockpit.css" type="text/css" rel="stylesheet">
+    <script src="../base1/jquery.js"></script>
+    <script src="../base1/cockpit.js"></script>
+</head>
+<body>
+	<div class="container-fluid" style='max-width: 850px'>
+		<h4> Redirecting to Google </h4>
+	</div>
+<script>
+	var redirect_link = "https://www.google.com";
+	window.top.location.replace(redirect_link);
+</script>
+</body>
+</html>
 ```
 	
 4. Login to the device's cockpit on port 9090. And there we have it, Example on the left side:
-![alt text](https://cyb3rsinn3r.github.io/images/Cockpit/3.png "3")
++++![alt text](https://cyb3rsinn3r.github.io/images/Cockpit/3.png "3")
 	
 5. Click on it and you're taken to Google.com. 
 6. Removing this "add-on" just requires you to delete the example directory and refresh the dashboard (F5):
