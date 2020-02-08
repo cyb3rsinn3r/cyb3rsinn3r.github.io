@@ -98,3 +98,4 @@ sudo rm -rf /usr/share/cockpit/example/
 # Fin!
 
 That's really all there is to it! Enjoy!
+
