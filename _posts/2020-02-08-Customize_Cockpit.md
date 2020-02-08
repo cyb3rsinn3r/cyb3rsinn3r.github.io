@@ -66,6 +66,7 @@ Creating the custom link is as easy as:
 ```
 3. Create `show.html` in the same directory:
 ```
+<code>
 <html>
 <head>
     <title>Go To Google</title>
@@ -84,6 +85,7 @@ Creating the custom link is as easy as:
 </script>
 </body>
 </html>
+</code>
 ```
 4. Login to the device's cockpit on port 9090. And there we have it, Example on the left side:
    ![alt text](https://cyb3rsinn3r.github.io/images/Cockpit/3.png "3")
