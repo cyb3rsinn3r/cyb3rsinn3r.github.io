@@ -52,8 +52,7 @@ Creating the custom link is as easy as:
 1. Create a directory located in `/usr/share/cockpit`:
 ```sudo mkdir /usr/share/cockpit/example```
 2. Create `manifest.json` inside our new `Example` directory with these contents:
-```
-	{
+```{
 	        "version":0,
 	        "tools":{
 	                "satnogs":{
@@ -67,8 +66,7 @@ Creating the custom link is as easy as:
 	
 3. Create `show.html` in the same directory:
 	
-```
-	<html>
+```<html>
 	<head>
 	    <title>Go To Google</title>
 	    <meta charset="utf-8">
@@ -93,7 +91,7 @@ Creating the custom link is as easy as:
 	
 6. Click on it and you're taken to Google.com. 
 7. Removing this "add-on" just requires you to delete the example directory and refresh the dashboard (F5):
-``sudo rm -rf /usr/share/cockpit/example/```
+```sudo rm -rf /usr/share/cockpit/example/```
 	
 # Fin!
 
