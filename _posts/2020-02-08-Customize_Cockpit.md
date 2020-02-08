@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Customize Cockpit
-tags: Cockpit RPi
+tags: cockpit rpi
 description: How to add custom links to Cockpit web-based server management tool.
 ---
 
