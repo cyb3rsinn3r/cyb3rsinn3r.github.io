@@ -66,22 +66,22 @@ Creating the custom link is as easy as:
 ```
 3. Create `show.html` in the same directory (don't forget to add the html tags):
 
-   <head>
-       <title>Go To Google</title>
-       <meta charset="utf-8">
-       <link href="../base1/cockpit.css" type="text/css" rel="stylesheet">
-       <script src="../base1/jquery.js"></script>
-       <script src="../base1/cockpit.js"></script>
-   </head>
-   <body>
-   	<div class="container-fluid" style='max-width: 850px'>
-   		<h4> Redirecting to Google </h4>
-   	</div>
-   <script>
-   	var redirect_link = "https://www.google.com";
-   	window.top.location.replace(redirect_link);
-   </script>
-   </body>
+    <head>
+        <title>Go To Google</title>
+        <meta charset="utf-8">
+        <link href="../base1/cockpit.css" type="text/css" rel="stylesheet">
+        <script src="../base1/jquery.js"></script>
+        <script src="../base1/cockpit.js"></script>
+    </head>
+    <body>
+    	<div class="container-fluid" style='max-width: 850px'>
+    		<h4> Redirecting to Google </h4>
+    	</div>
+    <script>
+    	var redirect_link = "https://www.google.com";
+    	window.top.location.replace(redirect_link);
+    </script>
+    </body>
    
 
   
