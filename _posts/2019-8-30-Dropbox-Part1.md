@@ -37,12 +37,12 @@ root@kali:~# passwd
 
 3. Install some updates!
 ```console
-root@kali:~# sudo apt-get upgrade && sudo apt-get update
+root@kali:~# sudo apt update && sudo apt upgrade
 ```
 
 4. Install OpenVPN
 ```console
-root@kali:~# sudo apt-get install openvpn
+root@kali:~# sudo apt install openvpn
 ```
 
 5. From the VPN server, create a new certificate. Your method might be different but I use pivpn on another Raspberry Pi. Creating a certificate is as easy as typing in:
