@@ -2,4 +2,8 @@
 <title>I know where you are!</title>
 </head>
 
-Your IP Address is: <?php echo $_SERVER["REMOTE_ADDR"]; ?>
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP">
+function getIP(json) {
+    document.write("Your IP address is: ", json.ip);
+  }
+</script>
